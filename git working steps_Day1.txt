@@ -1,0 +1,102 @@
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git init 
+Initialized empty Git repository in C:/Users/DELL/OneDrive/Desktop/Sharad/Terraform/25May26/.git/
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git add Provider.tf
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git add main.tf    
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Provider.tf
+        new file:   main.tf
+
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git commit - "add terraform code"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'add terraform code' did not match any file(s) known to git
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git commit -m "add terraform code"
+[master (root-commit) 92a0a62] add terraform code
+ 2 files changed, 13 insertions(+)
+ create mode 100644 Provider.tf
+ create mode 100644 main.tf
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> git clone https://github.com/sharad977-lgtm/Crash-Course_May2026.git
+Cloning into 'Crash-Course_May2026'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (7/7), done.
+Resolving deltas: 100% (1/1), done.
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> pwd
+
+Path                                                   
+----                                                   
+C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26
+
+
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26> cd .\Crash-Course_May2026\.git\
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git> ls
+
+
+    Directory: C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                
+----                 -------------         ------ ----                                                                                                                                
+d-----        25-05-2026     22:55                hooks                                                                                                                               
+d-----        25-05-2026     22:55                info                                                                                                                                
+d-----        25-05-2026     22:55                logs                                                                                                                                
+d-----        25-05-2026     22:55                objects                                                                                                                             
+d-----        25-05-2026     22:55                refs                                                                                                                                
+-a----        25-05-2026     22:55            317 config                                                                                                                              
+-a----        25-05-2026     22:55             73 description                                                                                                                         
+-a----        25-05-2026     22:55             21 HEAD                                                                                                                                
+-a----        25-05-2026     22:55            297 index                                                                                                                               
+-a----        25-05-2026     22:55            112 packed-refs                                                                                                                         
+
+
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git> git add .
+fatal: this operation must be run in a work tree
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git> git commit -m "code"
+fatal: this operation must be run in a work tree
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git> git commit -m "code"
+fatal: this operation must be run in a work tree
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git> git status                                                          
+fatal: this operation must be run in a work tree
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026\.git> cd..
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Provider.tf
+        main.tf
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026> git add .           
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026> git commit -m "code"
+[main fd755cc] code
+ 2 files changed, 19 insertions(+)
+ create mode 100644 Provider.tf
+ create mode 100644 main.tf
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 570 bytes | 285.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sharad977-lgtm/Crash-Course_May2026.git
+   70cb746..fd755cc  main -> main
+PS C:\Users\DELL\OneDrive\Desktop\Sharad\Terraform\25May26\Crash-Course_May2026> 
